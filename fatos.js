@@ -1,4 +1,4 @@
-fatosHistoricos = [
+const fatosHistoricos = [
     'As mulheres ganham o direito ao voto nos EUA.',
     'O partido comunista chinês é fundado.',
     'O império britânico diminui.',
