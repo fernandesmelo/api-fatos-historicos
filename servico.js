@@ -1,7 +1,11 @@
 import fatosHistoricos from './fatos.js';
 
 function servicoBuscarFatoPorAno(ano) {
-    return ano;
+    let fatoSelecionado = fatosHistoricos.find(fato => {
+        return fato.Ano == ano;
+    });
+
+    return fatoSelecionado.Fato;
 }
 
 exports.servicoBuscarFatoPorAno = servicoBuscarFatoPorAno;
