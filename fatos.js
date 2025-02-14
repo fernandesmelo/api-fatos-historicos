@@ -102,4 +102,4 @@ const fatosHistoricos = [
     'Tem início a pandemia de COVID-19.'
 ]
 
-exports.fatosHistoricos = fatosHistoricos;
+export default fatosHistoricos;
