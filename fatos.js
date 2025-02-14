@@ -101,3 +101,5 @@ const fatosHistoricos = [
     'Protestos ocorrem em Hong Kong contra a tentativa da China de tirar a autonomia do país.',
     'Tem início a pandemia de COVID-19.'
 ]
+
+exports.fatosHistoricos = fatosHistoricos;
