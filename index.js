@@ -1,17 +1,16 @@
-import express from 'express';
-import { servicoBuscarFatoPorAno } from './servicos/fatos.js';
+import express from "express";
+import servicoBuscarFatoPorAno from "./servico.js";
 
 const app = express();
 
-app.get('/', (req, res) => {
-    let anoFato = req.query.ano;
+app.get("/", (req, res) => {
+  let anoFato = req.query.ano;
 
-    let fato = servicoBuscarFatoPorAno(anoFato);
+  let fato = servicoBuscarFatoPorAno(anoFato);
 
-    res.json({ano:fato});
+  res.json({ ano: fato });
 });
 
 app.listen(8080, () => {
-    console.log("Servidor iniciado na porta 8080");
-})
-
+  console.log("Servidor iniciado na porta 8080");
+});

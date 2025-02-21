@@ -1,11 +1,9 @@
-import fatosHistoricos from './fatos.js';
+import fatosHistoricos from "./fatos.js";
 
 function servicoBuscarFatoPorAno(ano) {
-    let fatoSelecionado = fatosHistoricos.find(fato => {
-        return fato.Ano == ano;
-    });
+  const fatoSelecionado = fatosHistoricos.find((fato) => fato.ano === ano);
 
-    return fatoSelecionado.Fato;
+  return fatoSelecionado;
 }
 
 exports.servicoBuscarFatoPorAno = servicoBuscarFatoPorAno;
