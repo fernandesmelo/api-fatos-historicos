@@ -6,4 +6,4 @@ function servicoBuscarFatoPorAno(ano) {
   return fatoSelecionado;
 }
 
-exports.servicoBuscarFatoPorAno = servicoBuscarFatoPorAno;
+export { servicoBuscarFatoPorAno };

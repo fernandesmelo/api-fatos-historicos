@@ -1,5 +1,5 @@
 import express from "express";
-import servicoBuscarFatoPorAno from "./servico.js";
+import { servicoBuscarFatoPorAno } from "./servico.js";
 
 const app = express();
 
