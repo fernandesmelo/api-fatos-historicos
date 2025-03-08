@@ -7,8 +7,8 @@ app.get("/", (req, res) => {
   let anoFato = req.query.ano;
 
   if(servicoValidaAno(anoFato)) {
-    let fato = servicoBuscarFatoPorAno(Number(anoFato));
-    res.json({fato:fato});
+    let fato = servicoBuscarFatoPorAno(anoFato);
+    res.json(fato);
   }
   else {
     res.status(400).json({erro:"Parâmetro ano inválido"});
