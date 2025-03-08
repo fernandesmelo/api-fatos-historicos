@@ -15,7 +15,7 @@ function servicoValidaAno(ano) {
 }
 
 function servicoBuscarFatoPorAno(ano) {
-  const fatoSelecionado = fatosHistoricos.find((fato) => fato.ano === ano);
+  const fatoSelecionado = fatosHistoricos.find((fato) => fato.Ano === ano);
 
   return fatoSelecionado;
 }
