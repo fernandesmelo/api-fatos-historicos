@@ -26,7 +26,7 @@ A proposta desse projeto é criar uma API capaz de retornar um fato histórico c
 
 Este guia explica como baixar e rodar a API de Fatos Históricos, que fornece informações sobre eventos importantes de cada ano.
 
-## Ferramentas e Tecnologias Necessárias
+### Ferramentas e Tecnologias Necessárias
 
 Antes de começar, você precisará das seguintes ferramentas:
 
