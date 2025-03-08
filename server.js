@@ -1,14 +1,18 @@
 import express from "express";
-import { servicoBuscarFatoPorAno } from "./servico.js";
+import { servicoBuscarFatoPorAno, servicoValidaAno } from "./servico.js";
 
 const app = express();
 
 app.get("/", (req, res) => {
   let anoFato = req.query.ano;
 
-  let fato = servicoBuscarFatoPorAno(anoFato);
-
-  res.json(fato);
+  if(servicoValidaAno(anoFato)) {
+    let fato = servicoBuscarFatoPorAno(anoFato);
+    res.json(fato);
+  }
+  else {
+    res.status(400).json({erro:"Parâmetro ano inválido"});
+  }
 });
 
 app.listen(8080, () => {
