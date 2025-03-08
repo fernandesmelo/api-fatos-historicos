@@ -22,7 +22,7 @@ A proposta desse projeto é criar uma API capaz de retornar um fato histórico c
 
 * **Laércio Fernandes** - [LinkedIn](https://www.linkedin.com/in/laercio-fernandes/)
 
-# 🚀 Guia de Como Baixar e Rodar o Projeto
+## 🚀 Guia de Como Baixar e Rodar o Projeto
 
 Este guia explica como baixar e rodar a API de Fatos Históricos, que fornece informações sobre eventos importantes de cada ano.
 
