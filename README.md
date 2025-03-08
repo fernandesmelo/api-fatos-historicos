@@ -42,7 +42,7 @@ Antes de começar, você precisará das seguintes ferramentas:
         *   Baixe a versão para o seu sistema operacional.
         *   Siga as instruções de instalação.
 
-## Passo a Passo para Baixar e Rodar a API
+### Passo a Passo para Baixar e Rodar a API
 
 1.  **Baixe os arquivos da API:**
     *   Faça o download dos arquivos da API (os arquivos `.js`, `package.json` e `.gitignore`) para uma pasta no seu computador. Você pode baixar como um arquivo ZIP e extrair para uma pasta.
@@ -76,11 +76,11 @@ Antes de começar, você precisará das seguintes ferramentas:
         Substitua `1920` pelo ano que você quer pesquisar.
     *   Você deverá ver um JSON com o fato histórico correspondente ao ano pesquisado.
 
-## Como Usar a API
+### Como Usar a API
 
 Para pesquisar um fato histórico, adicione o parâmetro `ano` à URL da API, como no exemplo acima. A API retornará um JSON com as informações sobre o fato histórico daquele ano.
 
-## Solução de Problemas
+### Solução de Problemas
 
 *   **Erro "comando 'npm' não encontrado":** Verifique se o Node.js e o NPM foram instalados corretamente. Tente reinstalar o Node.js.
 *   **Erro "Cannot find module":** Verifique se você executou o comando `npm install` na pasta correta da API.
