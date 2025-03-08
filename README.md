@@ -53,9 +53,8 @@ Antes de começar, você precisará das seguintes ferramentas:
         (Substitua `seu_usuario` pelo seu nome de usuário no Windows).
     *   Use o comando `git clone` para baixar os arquivos do repositório. Você precisará do link do repositório no GitHub. O comando será algo como:
         ```sh
-        git clone https://github.com/seu_usuario/nome-do-repositorio.git
+        git clone https://github.com/fernandesmelo/api-fatos-historicos.git
         ```
-        (Substitua `https://github.com/seu_usuario/nome-do-repositorio.git` pelo link real do repositório).
     *   Isso criará uma pasta com o nome do repositório na sua área de trabalho e baixará todos os arquivos para dentro dela.
 2.  **Abra o terminal:**
     *   No Windows, procure por "Prompt de Comando" ou "PowerShell" no menu Iniciar.
