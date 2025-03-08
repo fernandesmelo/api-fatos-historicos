@@ -44,8 +44,19 @@ Antes de começar, você precisará das seguintes ferramentas:
 
 ### Passo a Passo para Baixar e Rodar a API
 
-1.  **Baixe os arquivos da API:**
-    *   Faça o download dos arquivos da API (os arquivos `.js`, `package.json` e `.gitignore`) para uma pasta no seu computador. Você pode baixar como um arquivo ZIP e extrair para uma pasta.
+1.  **Clone o repositório do GitHub:**
+    *   Abra o terminal (Prompt de Comando, PowerShell, Terminal do macOS ou Linux).
+    *   Navegue até o diretório onde você deseja salvar os arquivos da API. Por exemplo, para salvar na sua área de trabalho, use o comando:
+        ```sh
+        cd C:\Users\seu_usuario\OneDrive\Área de Trabalho
+        ```
+        (Substitua `seu_usuario` pelo seu nome de usuário no Windows).
+    *   Use o comando `git clone` para baixar os arquivos do repositório. Você precisará do link do repositório no GitHub. O comando será algo como:
+        ```sh
+        git clone https://github.com/seu_usuario/nome-do-repositorio.git
+        ```
+        (Substitua `https://github.com/seu_usuario/nome-do-repositorio.git` pelo link real do repositório).
+    *   Isso criará uma pasta com o nome do repositório na sua área de trabalho e baixará todos os arquivos para dentro dela.
 2.  **Abra o terminal:**
     *   No Windows, procure por "Prompt de Comando" ou "PowerShell" no menu Iniciar.
     *   No macOS, abra o aplicativo "Terminal" (geralmente encontrado em /Aplicativos/Utilitários).
