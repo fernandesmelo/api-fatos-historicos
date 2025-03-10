@@ -1,0 +1,11 @@
+graph TD
+    A[Usuário] -->|Informa ano| B[Front-end]
+    B -->|Envia requisição| C[API de Fatos Históricos]
+    C -->|Valida ano| D[Serviço de Validação]
+    D -->|Ano válido| E[Serviço de Busca de Fatos]
+    D -->|Ano inválido| F[Retorna erro: Parâmetro ano inválido]
+    E -->|Fato encontrado| G[Retorna fato histórico]
+    E -->|Fato não encontrado| H[Retorna erro: Parâmetro ano inválido]
+    F --> I[Fim]
+    G --> I[Fim]
+    H --> I[Fim]
