@@ -1,0 +1,11 @@
+graph TD
+    A[Início] --> B[Usuário informa um ano]
+    B --> C{Ano válido?}
+    C -->|Sim| D[Buscar fato histórico correspondente ao ano]
+    C -->|Não| E[Retornar erro: Parâmetro ano inválido]
+    D --> F{Fato encontrado?}
+    F -->|Sim| G[Retornar fato histórico]
+    F -->|Não| H[Retornar erro: Parâmetro ano inválido]
+    E --> I[Fim]
+    G --> I[Fim]
+    H --> I[Fim]
