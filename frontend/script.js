@@ -8,11 +8,11 @@ buscarButton.addEventListener("click", () => {
   if (ano === "") {
     resultadoDiv.innerHTML = `<p class="text-red-500 text-sm italic">Por favor, insira um ano.</p>`;
   } else if (isNaN(ano)) {
-    resultadoDiv.innerHTML = `<p class="text-red-500 text-sm italic">Por favor, insira um número válido para o ano.</p>`;
+    resultadoDiv.innerHTML = `<p class="text-red-500 text-sm italic">Por favor, insira um número válido.</p>`;
   } else {
     // Aqui você faria a chamada para a API usando fetch()
     // Exemplo de chamada (substitua com a URL da sua API):
-    fetch(`https://sua-api.com/fatos-historicos?ano=${ano}`)
+    fetch(`https://http://localhost:8080/?ano=1949`)
       .then((response) => {
         if (!response.ok) {
           throw new Error(`Erro na requisição: ${response.status}`);
