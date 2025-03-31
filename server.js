@@ -1,14 +1,16 @@
-import express, { Request, Response } from "express";
+import express from "express";
 import { servicoBuscarFatoPorAno, servicoValidaAno } from "./servico.js";
 
 const app = express();
 
+const publicpath = path.join(__dirname, "./public";
+
 app.get("/", (req, res) => {
-  res.send("API para buscar fatos históricos por ano");
-  const anoFato = req.query.ano as string;
+  res.sendFile(path.join(publicpath, "/index.html");
+  let anoFato = req.query.ano;
 
   if (servicoValidaAno(anoFato)) {
-    const fato = servicoBuscarFatoPorAno(anoFato);
+    let fato = servicoBuscarFatoPorAno(anoFato);
     res.json(fato);
   } else {
     res.status(400).json({ erro: "Parâmetro ano inválido" });

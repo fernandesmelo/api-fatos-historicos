@@ -1,6 +1,6 @@
 import fatosHistoricos from "./fatos.js";
 
-function servicoValidaAno(ano: any): boolean {
+function servicoValidaAno(ano) {
   if (isNaN(ano)) {
     return false;
   } else {
@@ -12,7 +12,7 @@ function servicoValidaAno(ano: any): boolean {
   }
 }
 
-function servicoBuscarFatoPorAno(ano: string): typeof fatosHistoricos[number] | undefined {
+function servicoBuscarFatoPorAno(ano) {
   const fatoSelecionado = fatosHistoricos.find((fato) => fato.Ano === ano);
 
   return fatoSelecionado;
