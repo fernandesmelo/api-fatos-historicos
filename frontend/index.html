@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fatos Históricos por Ano</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style src="style.css"></style>
+</head>
+<body class="bg-gray-100 flex justify-center items-center min-h-screen p-4">
+    <div class="bg-white rounded-lg shadow-xl p-8 w-full max-w-md transition-transform hover:scale-105">
+        <h1 class="text-2xl font-semibold text-blue-600 text-center mb-6">Fatos Históricos</h1>
+        <div class="mb-4">
+            <label for="ano" class="block text-gray-700 text-sm font-bold mb-2">Ano:</label>
+            <input type="number" id="ano" placeholder="Digite um ano (ex: 1990)" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
+        </div>
+        <div class="mb-6">
+            <button id="buscar" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline w-full">Buscar Fato Histórico</button>
+        </div>
+        <div id="resultado" class="mt-4 p-4 bg-gray-50 rounded-md border border-gray-200 text-gray-800">
+            <p class="text-sm italic">Digite um ano entre 1920 e 2020, e clique em Buscar para descobrir um fato histórico.</p>
+        </div>
+    </div>
+</body>
+</html>
