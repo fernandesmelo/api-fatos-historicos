@@ -1,17 +1,9 @@
 const fatosHistoricos = [
   { Ano: "1920", Fato: "As mulheres ganham o direito ao voto nos EUA" },
-
   { Ano: "1921", Fato: "O partido comunista chinês é fundado" },
-
   { Ano: "1922", Fato: "O império britânico diminui" },
-
-  {
-    Ano: "1923",
-    Fato: "Ocorreu o grande terremoto na região de Kanto, no Japão",
-  },
-
+  { Ano: "1923", Fato: "Ocorreu o grande terremoto na região de Kanto, no Japão" },
   { Ano: "1924", Fato: "Joseph Stalin assume o lugar de Vladmir Lenin" },
-
   {
     Ano: "1925",
     Fato: "O estado americano processa John Thomas Scopes por ensinar evolucionismo em uma escola do Tennessee.",

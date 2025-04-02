@@ -2,16 +2,17 @@
   "name": "api-fatos-historicos",
   "type": "module",
   "version": "1.0.0",
-  "description": "",
+  "description": "API que retorna fatos históricos de acordo com o ano informado entre 1920 e 2020.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Laércio Fernandes",
   "license": "ISC",
   "dependencies": {
     "api-fatos-historicos": "file:",
+    "cors": "^2.8.5",
     "express": "^4.21.2"
   }
 }
