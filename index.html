@@ -7,17 +7,20 @@
     <link rel="stylesheet" href="./frontend/style.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Descubra Fatos Históricos</h1>
-        <h4>Entre 1920 e 2020</h4>
-        <div class="input-area">
-            <input type="number" id="yearInput" placeholder="Digite um ano">
-            <button id="fetchButton">Obter Fato</button>
-        </div>
-        <div id="factDisplay" class="fact-area">
+    <main class="container">
+        <header>
+            <h1>Descubra Fatos Históricos</h1>
+            <p>Entre 1920 e 2020</p>
+        </header>
+        <section class="input-area">
+            <label for="campoAno">Digite um ano:</label>
+            <input type="number" id="campoAno" placeholder="Digite um ano">
+            <button id="botaoBuscar">Obter Fato</button>
+        </section>
+        <section id="areaFato" class="fato-area">
             <!-- Fato será exibido aqui -->
-        </div>
-    </div>
+        </section>
+    </main>
     <script src="./frontend/script.js"></script>
 </body>
 </html>
