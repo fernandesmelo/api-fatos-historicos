@@ -20,6 +20,8 @@ Aproveitei este projeto e adicionei novas funcionalidades com base em atividades
 * JavaScript ECMAScript 6 (ES6)
 * Node.js 22.12.0
 * Express.js 4.21.2
+* HTML5
+* CSS3
 
 ## ✒️ Autor
 
