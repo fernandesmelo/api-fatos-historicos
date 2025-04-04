@@ -1,8 +1,7 @@
 # API de Fatos Históricos 
-Desenvolvi este projeto como parte da Missão 04 do Módulo 2 da carreira Back-end no curso de Programador Full Stack na DevMedia. A missão abordou os tópicos "Node.js: Primeira API Hello World
-" e "Node.js: Recebendo parâmetros no back-end".
+Desenvolvi este projeto como parte da Missão 04 do Módulo 2 da carreira Back-end no curso de Programador Full Stack na DevMedia. A missão abordou os tópicos "Node.js: Primeira API Hello World " e "Node.js: Recebendo parâmetros no back-end".
 
-A proposta desse projeto é criar uma API capaz de retornar um fato histórico com base no ano informado. A aplicação recebe um ano entre 1920 e 2020 e retorna um fato histórico ocorrido naquele ano. Isso será feito utilizando conteúdos que aprendemos em JavaScript e Node.js.
+A proposta desse projeto é criar uma API capaz de retornar um [Fato Histórico](https://fatoshistoricos.netlify.app/) com base no ano informado. A aplicação recebe um ano entre 1920 e 2020 e retorna um fato histórico ocorrido naquele ano. Isso será feito utilizando conteúdos que aprendemos em JavaScript e Node.js.
 
 Aproveitei este projeto e adicionei novas funcionalidades com base em atividades propostas pelo professor da disciplina de Análise e Projeto de Sistemas da minha graduação em Análise e Desenvolvimento de Sistemas. Desenvolvi um frontend onde o usuário pode inserir um ano e, ao conectar com a API, receber um fato histórico sobre esse período.
 
