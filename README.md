@@ -46,6 +46,12 @@ Além disso, é bom ter um editor como o [VSCode](https://code.visualstudio.com/
 
 Siga os passos abaixo para clonar o repositório e iniciar a aplicação localmente:
 
+#### Antes de tudo:
+```bash
+# Clone o repositório
+git clone https://github.com/fernandesmelo/projeto-integrador-terceiro-periodo.git
+```
+
 #### Front-End
 ```bash
 # 1. Abra o projeto no VS Code
