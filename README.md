@@ -49,7 +49,18 @@ Siga os passos abaixo para clonar o repositório e iniciar a aplicação localme
 #### Antes de tudo:
 ```bash
 # Clone o repositório
-git clone https://github.com/fernandesmelo/projeto-integrador-terceiro-periodo.git
+git clone https://github.com/fernandesmelo/api-fatos-historicos.git
+```
+#### Back-End
+```bash
+# 1. Acesse a pasta do projeto
+cd api-fatos-historicos/backend
+
+# 2. Instale as dependências
+npm install
+
+# 3. Rode o projeto
+node server.js
 ```
 
 #### Front-End
@@ -64,21 +75,6 @@ cd api-fatos-historicos.
 E selecione "Open with Live Server".
 
 # 4. O navegador será aberto automaticamente
-```
-
-#### Back-End
-```bash
-# 1. Clone o repositório
-git clone https://github.com/fernandesmelo/projeto-integrador-terceiro-periodo.git
-
-# 2. Acesse a pasta do projeto
-cd projeto-integrador
-
-# 3. Instale as dependências
-npm install
-
-# 4. Rode o projeto
-npm run dev
 ```
 
 ## ⚙️ Executando os Testes
