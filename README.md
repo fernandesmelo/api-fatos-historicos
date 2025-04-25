@@ -29,5 +29,50 @@ Aproveitei este projeto e adicionei novas funcionalidades com base em atividades
 
 * **Laércio Fernandes** - [LinkedIn](https://www.linkedin.com/in/laercio-fernandes/)
 
+## 🚀 Guia de Como Baixar e Rodar o Projeto
+
+### 📦 Pré-requisitos
+
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+
+- [Git](https://git-scm.com)
+- [Node.js](https://nodejs.org)
+
+Além disso, é bom ter um editor como o [VSCode](https://code.visualstudio.com/) para trabalhar com o código.
+
+---
+
+### 🛠️ Como rodar o projeto
+
+Siga os passos abaixo para clonar o repositório e iniciar a aplicação localmente:
+
+#### Front-End
+```bash
+# 1. Abra o projeto no VS Code
+cd api-fatos-historicos.
+
+# 2. Abra o arquivo HTML principal
+É o index.html.
+
+# 3. Clique com o botão direito no index.html
+E selecione "Open with Live Server".
+
+# 4. O navegador será aberto automaticamente
+
+#### Back-End
+```bash
+# 1. Clone o repositório
+git clone https://github.com/fernandesmelo/projeto-integrador-terceiro-periodo.git
+
+# 2. Acesse a pasta do projeto
+cd projeto-integrador
+
+# 3. Instale as dependências
+npm install
+
+# 4. Rode o projeto
+npm run dev
+```
+
 ## ⚙️ Executando os Testes
 Próximos passos...
