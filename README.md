@@ -58,6 +58,7 @@ cd api-fatos-historicos.
 E selecione "Open with Live Server".
 
 # 4. O navegador será aberto automaticamente
+```
 
 #### Back-End
 ```bash
