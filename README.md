@@ -5,6 +5,8 @@ A proposta desse projeto é criar uma API capaz de retornar um [Fato Histórico]
 
 Aproveitei este projeto e adicionei novas funcionalidades com base em atividades propostas pelo professor da disciplina de Análise e Projeto de Sistemas da minha graduação em Análise e Desenvolvimento de Sistemas. Desenvolvi um frontend onde o usuário pode inserir um ano e, ao conectar com a API, receber um fato histórico sobre esse período.
 
+[screen-capture.webm](https://github.com/user-attachments/assets/12de9230-be10-458d-b7cf-3faabb11d039)
+
 ## 🛠️ Construído com
 
 <div style="display: inline-block"><br/>
